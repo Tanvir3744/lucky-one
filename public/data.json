@@ -1,0 +1,99 @@
+[
+  {
+    "id": "71sL0Qpd ",
+    "category": "Programming Books",
+    "name": "Python Crash Course",
+    "price": 200,
+    "picture": "https://m.media-amazon.com/images/I/71sL0Qpd+YL._AC_UL320_.jpg",
+    "author" : "Henny Morison"
+  },
+  {
+    "id": "81kv0vHJ0QL ",
+    "category": "Machine Learning",
+    "name": "Hands On Machine Learning",
+    "price": 300,
+    "picture": "https://learning.oreilly.com/library/cover/9781492032632/250w/",
+    "author" : "John Doe"
+  },
+  {
+    "id": "81QhP+Pg-NL",
+    "category": "Management",
+    "name": "The Mangers Path",
+    "price": 700,
+    "picture": "https://m.media-amazon.com/images/I/81QhP+Pg-NL._AC_UL320_.jpg",
+    "author" : "Albert Jonas"
+  },
+  {
+    "id": "81QhP+Pg-N00",
+    "category": "Interview",
+    "name": "Cracking The PM Interview",
+    "price": 234,
+    "picture": "https://m.media-amazon.com/images/I/81TECDw8b5L._AC_UL320_.jpg",
+    "author" : "Nick Benzamin"
+  },
+  {
+    "id": "8dasfaesrthP+Pg-fasdff0",
+    "category": "Core-programming",
+    "name": "Learn Web With C#",
+    "price": 434,
+    "picture": "https://m.media-amazon.com/images/I/81iSF1xnqdL._AC_UL320_.jpg",
+    "author" : "Cris nicholas"
+
+  },
+  {
+    "id": "84sfaesfasqwegqqhrwff0",
+    "category": "Programming",
+    "name": "The Pragmatic Programmer",
+    "price": 489,
+    "picture": "https://m.media-amazon.com/images/I/71Nxk9VhSTL._AC_UL320_.jpg",
+    "author" : "Mak Christian"
+  },
+  {
+    "id": "84sfaesfasqrwff0",
+    "category": "Algorithms",
+    "name": "Algorithms And Data Structure",
+    "price": 499,
+    "picture": "https://m.media-amazon.com/images/I/81Hfz5WMuLL._AC_UL320_.jpg",
+    "author" : "Alec benn"
+  },
+  {
+    "id": "45esfasqwegqqhrwff0",
+    "category": "JavaScript Programming",
+    "name": "JavaScript The Definitive Guide",
+    "price": 439,
+    "picture": "https://m.media-amazon.com/images/I/91hUer84PpL._AC_UL320_.jpg",
+    "author" : "Benn Diff"
+  },
+  {
+    "id": "567496fasdf54awrfe",
+    "category": "Python Programming",
+    "name": "Automate With Python",
+    "price": 819,
+    "picture": "https://m.media-amazon.com/images/I/715PNi5Wa2L._AC_UL320_.jpg",
+    "author" : "Jefferson"
+  },
+  {
+    "id": "3847adfhaf34adsfh345nfkjashf",
+    "category": "Perfermance",
+    "name": "Accelerate Work Flow",
+    "price": 809,
+    "picture": "https://m.media-amazon.com/images/I/71sF6z8nU4L._AC_UL320_.jpg",
+    "author" : "Moris Silva"
+  },
+  {
+    "id": "3847ad7sfh345nfkjashf",
+    "category": "Software Infrastructer",
+    "name": "Sofware Architecture",
+    "price": 609,
+    "picture": "https://m.media-amazon.com/images/I/81sdcxLtlwL._AC_UY218_.jpg",
+    "author" : "Colin Jimmy"
+  },
+  {
+    "id": "3847ad7sf389457ashf",
+    "category": "Bussiness",
+    "name": "The Bond King",
+    "price": 679,
+    "picture": "https://m.media-amazon.com/images/I/71-WynfwDML._AC_UL320_.jpg",
+    "author" : "Sean Henry"
+  }
+]
