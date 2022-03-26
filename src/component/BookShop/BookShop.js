@@ -19,6 +19,10 @@ const BookShop = () => {
         setCart(newCart)
     }
 
+    const handleClear = () => {
+        setCart([]);
+    } 
+
 
      /* state for showing random products */
     const [random, setRandom] = useState([]);
@@ -44,7 +48,7 @@ const BookShop = () => {
                         </Row>
                     </Col>
                     <Col md={3} className="bg-light shadow" >
-                        <Cart cart={cart} handleRandom={handleRandom} ></Cart>
+                        <Cart cart={cart} handleRandom={handleRandom} handleClear ={handleClear} ></Cart>
                     </Col>
                 </Row>
             </Container>
