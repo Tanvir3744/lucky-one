@@ -3,6 +3,8 @@ import SingleBook from '../SingleBook/SingleBook';
 import { Container, Row, Col } from 'react-bootstrap';
 import Cart from '../Cart/Cart';
 import RandomBook from '../ShowRandomBook/RandomBook';
+import ReactWork from '../HowReactWork/ReactWork';
+import HowUseStateWork from '../HowReactWork/HowUseStateWork';
 const BookShop = () => {
     let [books, setBooks] = useState([]);
     useEffect(() => {
@@ -38,6 +40,7 @@ const BookShop = () => {
         <div>
             <Container fluid>
                 <Row className='text-center'>
+                    <h1 className='text-center'>Random Choose</h1>
                     <RandomBook random ={random}></RandomBook>
 
                     <Col className='px-3' md={9}>
@@ -50,6 +53,13 @@ const BookShop = () => {
                     <Col md={3} className="bg-light shadow" >
                         <Cart cart={cart} handleRandom={handleRandom} handleClear ={handleClear} ></Cart>
                     </Col>
+                </Row>
+            </Container>
+
+            <Container>
+                <Row className='mt-3'>
+                    <ReactWork></ReactWork>
+                    <HowUseStateWork></HowUseStateWork>
                 </Row>
             </Container>
         </div>
