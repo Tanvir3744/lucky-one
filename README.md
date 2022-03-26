@@ -1,8 +1,7 @@
-# Getting Started with Create React App
 # Random Choose Website
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-LIve site : [Choose Random App]().
+This project was bootstrapped with [Radom Choose App](https://randomchoose.netlify.app/).
+
 
 ## Available Scripts
 
