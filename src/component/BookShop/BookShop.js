@@ -33,7 +33,7 @@ const BookShop = () => {
     return (
         <div>
             <Container fluid>
-                <Row>
+                <Row className='text-center'>
                     <RandomBook random ={random}></RandomBook>
 
                     <Col className='px-3' md={9}>
