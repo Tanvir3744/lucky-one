@@ -5,8 +5,6 @@ import {Button} from 'react-bootstrap'
 const Cart = (props) => {
     const { cart } = props;
 
-     /* state for showing random products */
-   
     
     return (
         <div>

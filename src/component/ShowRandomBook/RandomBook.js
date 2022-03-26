@@ -1,18 +1,17 @@
 import React from 'react';
-import {Card, Button } from 'react-bootstrap'
+import {Card } from 'react-bootstrap'
 const RandomBook = (props) => {
-    console.log(props)
+    const { picture, name, price, author } = props.random;
     return (
-        <div>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+        <div >
+            <Card className='text-center shadow border-0 ' style={{ width: '20rem' }}>
+                <Card.Img variant="top" src={picture} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>{name}</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        <strong>price : ${price}</strong>
+                        <strong>Author : {author}</strong>
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
             </Card>
         </div>
